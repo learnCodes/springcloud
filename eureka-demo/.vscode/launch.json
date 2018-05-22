@@ -1,0 +1,48 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ConsumerApplication<sc_client_demo>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "com.abc.test.sc_client_demo.ConsumerApplication",
+            "projectName": "sc_client_demo",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ProducerApplication<sc_server_demo>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "com.abc.test.sc_server_demo.ProducerApplication",
+            "projectName": "sc_server_demo",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-EurekaApplication<springcloud>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "com.abc.test.springcloud.EurekaApplication",
+            "projectName": "springcloud",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Attach)",
+            "request": "attach",
+            "hostName": "localhost",
+            "port": 0
+        }
+    ]
+}
